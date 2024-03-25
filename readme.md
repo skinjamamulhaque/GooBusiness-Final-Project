@@ -12,7 +12,8 @@ This project just includes one CSS @MediaQuery for mobile devices. (max-width: 7
 2. **folder css**
       - *style.css*
       - *responsive.css*
-      
+
 3. **folder images**
       - *all images*
 
+## Checkout using [Live Link](https://goobusinessfinalproject.netlify.app/).
