@@ -1,0 +1,255 @@
+@media screen and (max-width: 768px) {
+  .container{
+    padding: 0px 15px;
+  }
+
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .navigation-bar > img{
+    width: 25%;
+    height: 50%;
+   
+  }
+
+  .cover-section{
+    height: 100%;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+
+  .hero-text{
+    width: 100%;
+    padding: 20px 0px ;
+    /* padding: 20px; */
+    /* border: 1px solid greenyellow; */
+  }
+
+ .hero-heading{
+    width: 100%;
+    line-height: 3rem;
+    /* border: 1px solid red; */
+  }
+
+  .hero-para{
+      color : #4D4D4D;
+      font-size: 1rem; 
+      padding-top : 20px;
+      line-height: 1rem;
+      
+  }
+
+  .hero-img{
+    /* border: 1px solid blue; */
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .sec-2{
+    height: 100%;
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+
+  .form-div{
+    width: 100%;
+    height: 50%;
+  }
+
+
+  .form-div > h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .enquery-form > div{
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+  .enquery-form > div label{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding-right: 28px;
+  }
+
+  .enquery-form > input{
+    height: 1.8rem;
+    margin-bottom: 12px;  
+  }
+
+  .course-div{
+    /* border: 1px solid blue; */
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+
+  .course-dets{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    gap: 15px;
+  }
+
+ 
+.course-highlight{
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  /* border: 1px solid red; */
+  }
+
+  .course-highlight > div{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .course-highlight > div > img {
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 30px;
+  }
+
+  .course-heading{
+    font-size: 1rem;
+    color: #4d4d4d;
+   }
+
+   .course-note{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+
+
+  .sec-3{
+    margin-top: 100px;
+    height:100%;
+    /* background-color: red; */
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sec3-img{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-bottom: 50px;
+  }
+
+  .sec3-dets{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 20px 0px ;
+  }
+
+  .emp-heading{
+    font-weight: 800;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .emp-para{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .sec4-agenda{
+    height: 40vh;
+    /* border: 1px solid red; */
+    /* padding-top:10px;
+    padding-bottom:10px; */
+  }
+
+  .agenda-heading{
+    font-size: 3rem;
+  }
+
+  .agenda-para{
+    margin-top:20px;
+    font-size: 1rem;
+    line-height: 1.5rem ;
+    
+  }
+
+ 
+  .project-heading{
+    /* border: 1px solid red; */
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+  }
+
+  .project-details{
+    /* border: 1px solid green; */
+    flex-direction: column;
+  }
+
+  .project-highlight{
+    /* border: 1px solid red; */
+    width: 100%;
+    
+  }
+
+  .project-highlight > div{
+    padding: 8px;
+    /* border: 1px solid red */
+    gap: 25px;
+  }
+
+
+  .project-highlight > div > .details{
+    font-size: 1.25rem;
+    width: fit-content;
+  }
+
+  .sec5-img{
+    /* border: 1px solid yellowgreen; */
+    width: 100%; 
+  }
+
+  .sec-tools > h5{
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .tool-logo{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+
+  .tool-logo > div {
+    height: 100px;
+    width: 70px;
+    /* border: 1px solid blue; */
+    gap: 20px;
+  }
+
+  .sec-6 > .tagline{
+    /* border: 1px solid; */
+    font-size:2rem;
+    line-height: 2.39rem;
+  }
+
+  .sec-6 > button{
+    font-size: 1.8rem;
+  }
+
+
+}
